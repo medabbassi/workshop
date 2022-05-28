@@ -33,6 +33,9 @@ public class Personne {
         this.nom = nom;
         this.prenom = prenom;
     }
+    public Personne() {
+
+    }
 
     public String toString() {
       return  "Personne de id:"+getId()+" nom :"+getNom()+" prenom: "+getPrenom();
